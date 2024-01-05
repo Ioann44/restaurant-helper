@@ -11,7 +11,7 @@
 		"name": "Кола",
 		"weight": 330,
 		"desc": "Освежающий газированный напиток",
-		"kitchen": 0,
+		"kitchen": 1,
 		"category": 0,
 		"calories": 140,
 		"price": 50
@@ -44,7 +44,7 @@
 		"name": "Бургер",
 		"weight": 300,
 		"desc": "Сочный бургер с мясом и овощами",
-		"kitchen": 0,
+		"kitchen": 1,
 		"category": 1,
 		"calories": 450,
 		"price": 250
@@ -85,7 +85,7 @@
 		"name": "Лазанья",
 		"weight": 350,
 		"desc": "Итальянское блюдо с мясом, сыром и томатным соусом",
-		"kitchen": 1,
+		"kitchen": 2,
 		"category": 3,
 		"calories": 700,
 		"price": 300
@@ -94,7 +94,7 @@
 		"name": "Паста карбонара",
 		"weight": 300,
 		"desc": "Итальянская паста с беконом, яйцами и пармезаном",
-		"kitchen": 1,
+		"kitchen": 2,
 		"category": 3,
 		"calories": 620,
 		"price": 280
@@ -103,7 +103,7 @@
 		"name": "Пицца",
 		"weight": 500,
 		"desc": "Классическая итальянская пицца с разнообразными топпингами",
-		"kitchen": 1,
+		"kitchen": 2,
 		"category": 1,
 		"calories": 800,
 		"price": 350
@@ -112,7 +112,7 @@
 		"name": "Пицца 4 сыра",
 		"weight": 550,
 		"desc": "Пицца с миксом из четырех разных сыров",
-		"kitchen": 1,
+		"kitchen": 2,
 		"category": 1,
 		"calories": 900,
 		"price": 400
@@ -121,7 +121,7 @@
 		"name": "Пицца маргарита",
 		"weight": 520,
 		"desc": "Пицца с томатным соусом, моцареллой и базиликом",
-		"kitchen": 1,
+		"kitchen": 2,
 		"category": 1,
 		"calories": 750,
 		"price": 320
@@ -130,7 +130,7 @@
 		"name": "Блины",
 		"weight": 200,
 		"desc": "Традиционные русские блины с разнообразными начинками",
-		"kitchen": 2,
+		"kitchen": 3,
 		"category": 3,
 		"calories": 350,
 		"price": 150
@@ -139,7 +139,7 @@
 		"name": "Борщ",
 		"weight": 400,
 		"desc": "Популярный украинский суп с мясом и свежими овощами",
-		"kitchen": 2,
+		"kitchen": 3,
 		"category": 2,
 		"calories": 300,
 		"price": 180
@@ -148,7 +148,7 @@
 		"name": "Пельмени",
 		"weight": 300,
 		"desc": "Традиционное русское блюдо с мясной начинкой",
-		"kitchen": 2,
+		"kitchen": 3,
 		"category": 3,
 		"calories": 400,
 		"price": 200
@@ -157,7 +157,7 @@
 		"name": "Пироги с мясом",
 		"weight": 350,
 		"desc": "Вкусные пироги с сочной мясной начинкой",
-		"kitchen": 2,
+		"kitchen": 3,
 		"category": 3,
 		"calories": 380,
 		"price": 180
@@ -166,7 +166,7 @@
 		"name": "Картофельное пюре",
 		"weight": 300,
 		"desc": "Нежное пюре из отварного картофеля",
-		"kitchen": 2,
+		"kitchen": 3,
 		"category": 3,
 		"calories": 250,
 		"price": 120

@@ -12,10 +12,11 @@ file_names_data_in = [
 ]
 filenames = [f"{line[0]}/{val}" for line in file_names_data_in for val in line[1:]]
 
-url = "http://localhost:3000/dish/"
 file_name_prefix = "./ImgOfEat/"
+url_prefix = "http://185.128.106.222:3000/"
 
 for data_i, filename in zip(data_in, filenames):
+    url = url_prefix + "dish/"
     files = [
         (
             "image",
@@ -26,4 +27,16 @@ for data_i, filename in zip(data_in, filenames):
         "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjowfQ.bQoM-YvgvSYMcASgpMpgI5-JtaZSDu3lzGjH2soiK3s"
     }
     response = requests.request("PUT", url, headers=headers, data={"data": json.dumps(data_i)}, files=files)
+    if '{"query":"INSERT INTO' in response.text:
+        print("Images already loaded")
+        break
+    print(response.text)
+
+for kitchen in "Американская Итальянская Русская".split():
+    url = url_prefix + "kitchen/"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjowfQ.bQoM-YvgvSYMcASgpMpgI5-JtaZSDu3lzGjH2soiK3s",
+    }
+    response = requests.request("PUT", url, headers=headers, data=json.dumps({"name": kitchen}))
     print(response.text)
