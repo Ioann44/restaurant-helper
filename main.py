@@ -10,15 +10,12 @@ file_names_data_in = [
     ["Italian", "Lazania.png", "PastaKarbonara.png", "Pizza.png", "Pizza4sira.png", "PizzaMargarita.png"],
     ["Russian", "blin.png", "borstch.png", "Pelmen.png", "Pirogsmyasom.png", "Pure.png"],
 ]
-category_with_filenames = [
-    (category, f"{line[0]}/{val}") for category, line in enumerate(file_names_data_in) for val in line[1:]
-]
+filenames = [f"{line[0]}/{val}" for line in file_names_data_in for val in line[1:]]
 
 url = "http://localhost:3000/dish/"
 file_name_prefix = "./ImgOfEat/"
 
-for data_i, category, filename in zip(data_in, *zip(*category_with_filenames)):  # type: ignore
-    data_i["category"] = category
+for data_i, filename in zip(data_in, filenames):
     files = [
         (
             "image",

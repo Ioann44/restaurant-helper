@@ -11,6 +11,7 @@
 		"name": "Кола",
 		"weight": 330,
 		"desc": "Освежающий газированный напиток",
+		"kitchen": 0,
 		"category": 0,
 		"calories": 140,
 		"price": 50
@@ -43,7 +44,8 @@
 		"name": "Бургер",
 		"weight": 300,
 		"desc": "Сочный бургер с мясом и овощами",
-		"category": 0,
+		"kitchen": 0,
+		"category": 1,
 		"calories": 450,
 		"price": 250
 	},
@@ -51,7 +53,7 @@
 		"name": "Чипсы",
 		"weight": 100,
 		"desc": "Хрустящие картофельные чипсы",
-		"category": 0,
+		"category": 1,
 		"calories": 530,
 		"price": 80
 	},
@@ -59,7 +61,7 @@
 		"name": "Картофель фри",
 		"weight": 200,
 		"desc": "Жареный картофель в форме палочек",
-		"category": 0,
+		"category": 1,
 		"calories": 340,
 		"price": 120
 	},
@@ -67,7 +69,7 @@
 		"name": "Хот-дог",
 		"weight": 250,
 		"desc": "Пикантное сочетание колбасы, соусов и булки",
-		"category": 0,
+		"category": 1,
 		"calories": 400,
 		"price": 180
 	},
@@ -75,7 +77,7 @@
 		"name": "Сендвич",
 		"weight": 200,
 		"desc": "Насыщенный перекус с разнообразными начинками",
-		"category": 0,
+		"category": 1,
 		"calories": 320,
 		"price": 150
 	},
@@ -83,7 +85,8 @@
 		"name": "Лазанья",
 		"weight": 350,
 		"desc": "Итальянское блюдо с мясом, сыром и томатным соусом",
-		"category": 0,
+		"kitchen": 1,
+		"category": 3,
 		"calories": 700,
 		"price": 300
 	},
@@ -91,7 +94,8 @@
 		"name": "Паста карбонара",
 		"weight": 300,
 		"desc": "Итальянская паста с беконом, яйцами и пармезаном",
-		"category": 0,
+		"kitchen": 1,
+		"category": 3,
 		"calories": 620,
 		"price": 280
 	},
@@ -99,7 +103,8 @@
 		"name": "Пицца",
 		"weight": 500,
 		"desc": "Классическая итальянская пицца с разнообразными топпингами",
-		"category": 0,
+		"kitchen": 1,
+		"category": 1,
 		"calories": 800,
 		"price": 350
 	},
@@ -107,7 +112,8 @@
 		"name": "Пицца 4 сыра",
 		"weight": 550,
 		"desc": "Пицца с миксом из четырех разных сыров",
-		"category": 0,
+		"kitchen": 1,
+		"category": 1,
 		"calories": 900,
 		"price": 400
 	},
@@ -115,7 +121,8 @@
 		"name": "Пицца маргарита",
 		"weight": 520,
 		"desc": "Пицца с томатным соусом, моцареллой и базиликом",
-		"category": 0,
+		"kitchen": 1,
+		"category": 1,
 		"calories": 750,
 		"price": 320
 	},
@@ -123,7 +130,8 @@
 		"name": "Блины",
 		"weight": 200,
 		"desc": "Традиционные русские блины с разнообразными начинками",
-		"category": 0,
+		"kitchen": 2,
+		"category": 3,
 		"calories": 350,
 		"price": 150
 	},
@@ -131,7 +139,8 @@
 		"name": "Борщ",
 		"weight": 400,
 		"desc": "Популярный украинский суп с мясом и свежими овощами",
-		"category": 0,
+		"kitchen": 2,
+		"category": 2,
 		"calories": 300,
 		"price": 180
 	},
@@ -139,7 +148,8 @@
 		"name": "Пельмени",
 		"weight": 300,
 		"desc": "Традиционное русское блюдо с мясной начинкой",
-		"category": 0,
+		"kitchen": 2,
+		"category": 3,
 		"calories": 400,
 		"price": 200
 	},
@@ -147,7 +157,8 @@
 		"name": "Пироги с мясом",
 		"weight": 350,
 		"desc": "Вкусные пироги с сочной мясной начинкой",
-		"category": 0,
+		"kitchen": 2,
+		"category": 3,
 		"calories": 380,
 		"price": 180
 	},
@@ -155,7 +166,8 @@
 		"name": "Картофельное пюре",
 		"weight": 300,
 		"desc": "Нежное пюре из отварного картофеля",
-		"category": 0,
+		"kitchen": 2,
+		"category": 3,
 		"calories": 250,
 		"price": 120
 	}
